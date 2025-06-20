@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Майстерня</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Блок 1 Назва-->
+    <header> 
+        <div class="logo-section"> 
+            <div> 
+                <h1>Творча <span class="bold"> Майстерня</span></h1>
+                <p class="subtitle">Творчість як професія. Результат як мистецтво.</p> 
+            </div>
+            <img src="img/Logo.png" alt="Логотип"> 
+        </div>
+    </header>
+    
+    <!--Блок 2 Опис-->
+    <section class="about"> 
+        <h2>ПРО НАС</h2>
+        <p>"Творча майстерня" - це місце, де ручна робота оживає. Ми створюємо декоративні вироби, 
+            які дарують емоції: кавові топіарії, святкові ялинки, авторські композиції. У кожен виріб 
+            вкладено - частинку душі, натхнення і багато любові. <br><br>
+            Ми віримо, що краса починається з дрібниць, тому працюємо над тим, щоб кожна річ була 
+            неповторною - як і той, хто її отримує. </p>
+    </section>
+
+    <!--Блок 3 Фото-->
+<section class="catalog">
+  <h2>КАТАЛОГ РОБІТ</h2>
+
+    <!--Прихований чекбокс-->
+    <input type="checkbox" id="toggle-more">
+
+    <div class="gallery">
+    <!--Основі зображення-->
+    <article>
+      <img src="img/Love.jpg" alt="Кохання">
+      <h4>Кохання</h4>
+    </article>
+    <article>
+      <img src="img/Gentleman.jpg" alt="Джентльмен">
+      <h4>Джентльмен</h4>
+    </article>
+    <article>
+      <img src="img/Evening-walk.jpg" alt="Вечірня прогулянка">
+      <h4>Вечірня прогулянка</h4>
+    </article>
+
+    <!--Приховані зображення-->
+    <article class="more">
+       <img src="img/Rankova-kava.jpg" alt="Ранкова кава">
+       <h4>Ранкова кава</h4>
+    </article>
+    <article class="more">
+       <img src="img/Yalinka-1.jpg" alt="Ялинка 1">
+       <h4>Ялинка 1</h4>
+    </article>
+    <article class="more">
+       <img src="img/Yalinka-2.jpg" alt="Ялинка 2">
+       <h4>Ялинка 2</h4>
+    </article>
+     <article class="more">
+       <img src="img/Yalinka-3.jpg" alt="Ялинка 3">
+       <h4>Ялинка 3</h4>
+    </article>
+   </div>
+
+    <!--Кнопка перемикач-->
+   <label for="toggle-more" class="red-button"> 
+    <span class="text-show">Далі</span>
+    <span class="text-hide">Сховати</span>
+   </label>
+
+</section>
+
+<!--Блок 4 Послуги-->
+<section class="offer">
+    <h2>ЩО МИ ПРОПОНУЄМО</h2> 
+    <div class="offer-columns">
+        <div>
+            <h3>Творчі майстер-класи</h3>
+            <p>Арт-заняття для початківців та дітей: живопис, декор і багато іншого.</p>
+        </div> 
+
+        <div> 
+            <h3>Арт-терапія</h3>
+            <p>Безпечний простір для самовираження, зняття стресу й глибокої емоційної роботи.</p>
+        </div> 
+
+        <div> 
+            <h3>Готові вироби ручної роботи</h3>
+            <p>Ексклюзивні подарунки, декор і сезонні композиції, створені з любов’ю з увагою до деталей. Можливе замовлення індивідуальних виробів.</p>
+        </div>
+    </div>
+    <button class="red-button">Замовити</button>
+</section>
+ 
+<!--Блок 5 Підвал-->
+<footer> 
+    <div class="contacts">
+        <span><b>Контакти:</b></span>
+        <span><i>pletska_elina@sccpu.com.ua</i></span> 
+        <span><i>050-456-18-75</i></span>
+    </div>
+    <p class="footer-text">2025 Творча Майстерня</p>
+</footer>
+
+</body>
+</html>
