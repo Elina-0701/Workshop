@@ -233,7 +233,11 @@ margin: 0;
 
   .gallery article,
   .gallery .more {
-    width: 48%;
+    width: 100%; /* або 90% */
+  }
+
+  .gallery img {
+    max-height: 350px;
   }
 
   .contacts {
