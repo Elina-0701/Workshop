@@ -247,7 +247,7 @@ margin: 0;
 }
 
 /* Для дуже маленьких екранів (менше 500px) */
-@media (max-width: 500px) {
+@media (min-width: 501px) and (max-width: 1024px) {
   body {
     font-size: 1rem;
     padding: 10px;
@@ -269,13 +269,12 @@ margin: 0;
 
   .gallery article,
   .gallery .more {
-    width: 60%;
+    width: 100%;
   }
 
   .gallery img {
-    height: auto;
-    max-height: 100%; /* або 350px */
-    object-fit: contain; /* Щоб вертикальні картинки не обрізались */
+    max-height: 400px;
+    object-fit: contain;
   }
 
   .red-button {
