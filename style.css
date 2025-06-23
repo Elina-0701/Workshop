@@ -233,7 +233,7 @@ margin: 0;
 
   .gallery article,
   .gallery .more {
-    width: 100%; /* або 90% */
+    width: 90%; /* або 90% */
   }
 
   .gallery img {
@@ -274,7 +274,8 @@ margin: 0;
 
   .gallery img {
     height: auto;
-    max-height: 220px;
+    max-height: 100%; /* або 350px */
+    object-fit: contain; /* Щоб вертикальні картинки не обрізались */
   }
 
   .red-button {
